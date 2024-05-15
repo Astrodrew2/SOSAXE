@@ -1,0 +1,23 @@
+Thank you for continuing the SOSAXE project!!
+
+THINGS TO BE DONE:
+
+Andrew/Dan - 
+Making sure the rotations are correct! Help from Siddhant Solanki
+
+Dan - 
+Testing making synthetic observations with the pyxsim.CIESourceModel with a metallicity of Z=3.
+- This will result in potentially more reliable observations as they better represent the metallixity in our Athena++ simulation, as well as the     expected metallicity in the inner 2 pc of the Galactic Center.
+- You will probably want to do this with both models as well as the Athena++ model with and without CND absorption applied
+
+Making spectrum for both the Lynx and XRISM synthetic observations of the Athena++ model
+- Allows for a more analytical comparison between the two simulations (as well as a direct comparison with Chandra 13 spectrum
+
+Merging the NSC background evt file with the Lynx and XRISM synthetic models more directly. Probably using the soxs.merge_event_files function however we will need to find out the proper conversion factor for the counts per solar mass per second to multiply against the mass density values in the NSC file.
+- This will allow for more direct comparisons of the synthetic observations and real data to see the potential of these new/future telescopes. 
+- This also allows for you to see if any external sources from the simulation (i.e., an area of shocked stellar winds) still shows up with the NSC background
+
+Making the redshift measurements using sherpa, analytical models, or potentially SOXS/pyXSIM with communication with John ZuHone)
+- This is a real pain using sherpa and I wish you best of luck. I'm sure a more in depth discussion than this will be needed and you can reach out to me at aenwright02@gmail.com
+
+
