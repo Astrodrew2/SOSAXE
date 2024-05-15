@@ -13,6 +13,9 @@ Testing making synthetic observations with the pyxsim.CIESourceModel with a meta
 Making spectrum for both the Lynx and XRISM synthetic observations of the Athena++ model
 - Allows for a more analytical comparison between the two simulations (as well as a direct comparison with Chandra 13 spectrum
 
+Making spectrum for all Chandra synthetic observations
+- Can allow for direct comparison with Chandra cycle 13 spectrum
+
 Merging the NSC background evt file with the Lynx and XRISM synthetic models more directly. Probably using the soxs.merge_event_files function however we will need to find out the proper conversion factor for the counts per solar mass per second to multiply against the mass density values in the NSC file.
 - This will allow for more direct comparisons of the synthetic observations and real data to see the potential of these new/future telescopes. 
 - This also allows for you to see if any external sources from the simulation (i.e., an area of shocked stellar winds) still shows up with the NSC background
